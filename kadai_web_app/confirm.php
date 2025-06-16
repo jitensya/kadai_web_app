@@ -1,8 +1,8 @@
 <?php
 // POSTリクエストから入力データを取得
-$name = $_POST['user_name'];
-$age = $_POST['user_age'];
-$shozoku = $_POST['user_shozoku'];
+$name = $_POST['employee_name'];
+$age = $_POST['employee_age'];
+$shozoku = $_POST['department'];
 // $category = $_POST['category'];
 // $message = $_POST['message'];
 ?>

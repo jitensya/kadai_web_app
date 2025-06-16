@@ -13,21 +13,25 @@
             <tr>
                 <td>社員名</td>
                 <td>
-                    <input type="text" name="user_name">
+                    <input type="text" name="employee_name">
                 </td>
             </tr>
             <tr>
                 <td>年齢</td>
                 <td>
-                    <input type="number" name="user_age">
+                    <input type="number" name="employee_age">
                 </td>
             </tr>
             <tr>
                 <td>所属部署</td>
                 <td>
-                    <input type="radio" name="user_shozoku" value="開発部" checked>開発部
-                    <input type="radio" name="user_shozoku" value="営業部">営業部
-                    <input type="radio" name="user_shozoku" value="人事部">人事部
+                    <select name="department">
+                    <option value="開発部">開発部</option>
+                    <option value="営業部">営業部</option>
+                    <option value="人事部">人事部</option>
+                    <!-- <input type="radio" name="department" value="開発部" checked>開発部
+                    <input type="radio" name="department" value="営業部">営業部
+                    <input type="radio" name="department" value="人事部">人事部 -->
                 </td>
             </tr>
             <!--<tr>
